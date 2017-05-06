@@ -50,9 +50,9 @@ img {
 }
 .nav-menus {
 	background-image: url(../img/nav-background.jpg);
-	overflow: hidden;
-	-webkit-border-radius: 10px 10px 0 0;
-	-moz-border-radius: 50px; 
+    overflow: hidden;
+    padding: 2% 2%;
+    -webkit-border-radius: 10px 10px 0 0; 
 }
 .nav-menus nav li a{
 	font-size: 14px;
@@ -60,19 +60,20 @@ img {
 	width: 20%;
 	text-align: center;
 	transition: 0.4s;
-	padding: 2% 0 0;
+	padding: 1% 0 2%;
 	text-decoration: none;
-	min-height: 83px;
+	/* min-height: 64px; */
 	border-radius: 15px;
 }
 .nav-menus nav li a:hover {
-  background-color: #65aa27; 
-  padding: 2% 0;
+	background-color: #65aa27;  
 }
 .content-section{
 	background-color: #fff;
 	overflow: hidden;
 	padding-bottom: 4%;
+	margin-top: -1%;
+	border-radius: 10px 10px 0px 0px;
 }
 .prod-row {
     overflow: hidden;
@@ -85,7 +86,7 @@ img {
     float: left;
     width: 25%;
     text-align: center;
-    padding: 0 1%;
+    padding: 0 1% 2%;
 }
 .prod-row li .prod-title{
 	padding: 4% 0%;
@@ -94,6 +95,9 @@ img {
 .prod-row li .prod-title img{
 	float: right;
     padding: 0 6px 0 0;
+}
+.prod-list li{
+	 display:none;
 }
 .c-blue{
 	background-color: #0e97a3;
